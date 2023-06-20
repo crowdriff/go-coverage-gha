@@ -1,4 +1,4 @@
-name: 'Go coverage report'
+name: 'Go coverage report gha'
 description: 'This action updates adds an HTML coverage report and SVG badge to your wiki'
 branding:
   color: blue
