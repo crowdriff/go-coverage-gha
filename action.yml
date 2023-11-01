@@ -8,6 +8,7 @@ runs:
   using: "composite"
   steps:
     - name: Get repository name
+      shell: bash
       run: echo "REPOSITORY_NAME=${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
 
     - name: Checkout code
